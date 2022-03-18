@@ -1,0 +1,36 @@
+.section-a{
+	grid-area: section-a;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+	}
+}
+.section-b{
+	grid-area: section-b;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+	}
+}
+.section-c{
+	grid-area: section-c;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+	}
+}

@@ -1,0 +1,11 @@
+$estilos:(
+	color:white,
+	border-radius:5px,
+	bgColor:#003285,
+);
+
+button{
+	color:map-get($estilos,color);
+	border-radius:map-get($estilos,border-radius);
+	background:map-get($estilos,bgColor);
+}

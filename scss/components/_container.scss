@@ -1,0 +1,16 @@
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 150px 600px 400px 150px;
+	grid-auto-flow: row;
+	grid-auto-columns: 1fr;
+	grid-template-areas:
+	"header header header"
+	"hero hero hero"
+	"section-a section-b section-c"
+	"footer footer footer"
+	;
+	width: 100%;
+	height: 100%;
+	grid-gap: 5px;
+}

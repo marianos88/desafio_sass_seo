@@ -1,0 +1,18 @@
+.hero{
+	grid-area: hero;
+	background-image: url("https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	h1{
+		color: white;
+		font-size: 3rem;
+		text-shadow: 1px 2px 1px rgb(102, 102, 102);
+		text-align: center;
+		margin: 1rem;
+	}
+}

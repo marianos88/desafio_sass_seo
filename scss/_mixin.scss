@@ -1,0 +1,7 @@
+@mixin borderYpadding($bord,$padd){
+	border:$bord;
+	padding:$padd;
+}
+button{
+	@include borderYpadding(0px,0.5rem);
+}
